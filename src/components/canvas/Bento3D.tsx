@@ -20,8 +20,8 @@ export default function Bento3D() {
       rotation={[0.13, 0.1, 0]}
       polar={[-0.4, 0.2]}
       azimuth={[-1, 0.75]}
-      config={{ mass: 2, tension: 400 }}
-      snap={{ mass: 4, tension: 400 }}
+      // config={{ mass: 2, tension: 400 }}
+      snap={true}
     >
       <Float rotationIntensity={0.2} speed={1.5}>
         <group ref={tRef}>
